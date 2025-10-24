@@ -7,8 +7,8 @@ export default defineConfig({
 	outDir: "dist",
 	bundle: false,
 	splitting: false,
-	sourcemap: true, // デバッグのためソースマップを有効化
-	minify: false, // 開発時は無効、本番ビルド時のみ有効化を検討
+	sourcemap: false, // デバッグのためソースマップを有効化
+	minify: true, // 開発時は無効、本番ビルド時のみ有効化を検討
 	clean: true,
 	dts: {
 		resolve: true,

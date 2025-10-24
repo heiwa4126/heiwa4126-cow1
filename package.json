@@ -35,7 +35,8 @@
 		"audit": "npm audit && trivy fs --scanners vuln package.json"
 	},
 	"keywords": [
-		"hello-world",
+		"cow",
+		"cowsay",
 		"example",
 		"demo",
 		"typescript",
@@ -63,5 +64,8 @@
 		"tsx": "^4.20.6",
 		"typescript": "^5.9.3",
 		"vitest": "^3.2.4"
+	},
+	"dependencies": {
+		"cowsay": "^1.6.0"
 	}
 }

@@ -1,3 +1,3 @@
-import { greet } from "./index";
+import { cow } from "./index";
 
-console.log(greet());
+console.log(cow());

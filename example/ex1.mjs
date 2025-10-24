@@ -1,3 +1,3 @@
-import { greet } from "@heiwa4126/cow1";
+import { cow } from "@heiwa4126/cow1";
 
-console.log(greet());
+console.log(cow());
