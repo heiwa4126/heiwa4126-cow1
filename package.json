@@ -1,5 +1,5 @@
 {
-	"name": "project1",
+	"name": "@heiwa4126/cow1",
 	"version": "0.0.0-alpha1",
 	"description": "tsup test template",
 	"type": "module",
@@ -14,14 +14,14 @@
 		}
 	},
 	"bin": {
-		"project1": "dist/main.js"
+		"heiwa4126-cow1": "dist/main.js"
 	},
 	"scripts": {
 		"init": "npm i && npm run build && npm run link",
 		"prepublishOnly": "npm run clean && npm run build && npm run test:run && npm run smoketest",
 		"clean": "rm -rf dist",
 		"build": "tsup",
-		"link": "mkdir -p node_modules && ln -sfn ../dist node_modules/project1",
+		"link": "mkdir -p node_modules/@heiwa4126 && ln -sfn ../../ node_modules/@heiwa4126/cow1",
 		"test": "vitest run",
 		"test:run": "vitest run",
 		"test:watch": "vitest --watch",
@@ -51,7 +51,7 @@
 	"author": "heiwa4126 <heiwa4126@gmail.com>",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/heiwa4126/project1.git"
+		"url": "git+https://github.com/heiwa4126/heiwa4126-cow1.git"
 	},
 	"license": "MIT",
 	"engines": {

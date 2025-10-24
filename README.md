@@ -1,9 +1,7 @@
-# project1
+# heiwa4126-cow1 (@heiwa4126/cow1)
 
 TypeScript でパッケージを書いて
-EMS と CJS にするプロジェクトのテンプレート。
-
-GitHub から npm への Trusted Publishing のワークフロー付き。
+EMS と CJS にするプロジェクトの練習。主に外部依存のテスト
 
 ## 開発
 
