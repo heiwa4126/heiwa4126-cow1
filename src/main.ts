@@ -1,3 +1,3 @@
-import { cow } from "./index";
+import { cow } from "./index.js";
 
 console.log(cow());
