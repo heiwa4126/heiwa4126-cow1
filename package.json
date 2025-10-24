@@ -1,7 +1,7 @@
 {
 	"name": "@heiwa4126/cow1",
-	"version": "0.0.0-alpha1",
-	"description": "tsup test template",
+	"version": "0.0.0-alpha2",
+	"description": "A TypeScript wrapper for cowsay with dual-package (ESM/CJS) support and CLI functionality. Generate ASCII art of a cow saying your custom message.",
 	"type": "module",
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.js",
@@ -30,6 +30,7 @@
 		"format": "biome format --write .",
 		"format:full": "npm pkg fix && biome format --write . && dprint fmt && textlint --fix \"**/*.md\"",
 		"ex1": "node ./example/ex1.mjs && node ./example/ex1.cjs && tsx ./example/ex1.ts",
+		"main": "npx heiwa4126-cow1",
 		"smoketest": "npm run ex1",
 		"security": "trivy fs --skip-dirs node_modules,cdk.out . && trivy config --skip-dirs node_modules,cdk.out .",
 		"audit": "npm audit && trivy fs --scanners vuln package.json"
